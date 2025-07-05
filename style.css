@@ -100,6 +100,24 @@ footer a:hover{
 
 
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.intro-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px; 
+}
+
+.intro-text{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
 
 
 table.ficha{
